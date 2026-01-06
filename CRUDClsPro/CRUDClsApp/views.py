@@ -4,6 +4,7 @@ from django.views.generic import ListView , DetailView ,CreateView , UpdateView
 
 # Create your views here.
 class Extracting(ListView):
+    print('Hello')
     model = Book
     context_object_name = 'book'
 
